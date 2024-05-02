@@ -1,0 +1,11 @@
+vde {mode} {dump file} {variable} {output/input file}
+
+mode:
+    r to read from dump into output file
+    w to write to dump from input file
+dump file:
+    a valid uefivardump json file
+variable:
+    name of the variable you wish to operate on
+output/input file:
+    file name to write/read variable's data to/from depending on operation
